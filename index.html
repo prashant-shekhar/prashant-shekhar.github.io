@@ -240,12 +240,23 @@
 
                         </div>
                         <div class="col-sm-6 col-md-5 col-md-offset-1">
-                            <form class="form-email" action="https://formspree.io/toprashantshekhar@gmail.com" method="POST">
-                                <input type="text" required class="validate-required" name="name" placeholder="Your Name" />
-                                <input type="text" required class="validate-required validate-email" name="email" placeholder="Email Address" />
-                                <textarea class="validate-required" required name="message" rows="4" placeholder="Message" style="resize: none;"></textarea>
-                                <input type="submit" value="Send Message" />
-                            </form>
+                            <form
+  action="https://formspree.io/f/mwkandyl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
                         </div>
                     </div>
 
